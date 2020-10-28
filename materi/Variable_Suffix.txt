@@ -1,0 +1,7 @@
+Variable Suffix
+Currency:@
+Double:#
+Integer:%
+Long:&
+Single:!
+String:$ 
