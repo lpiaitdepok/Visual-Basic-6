@@ -24,5 +24,4 @@ Data1.Refresh
 'delete an entry from the database
 Data1.Recordset.Move ( MSFlexgrid1.Row - 1) ' we minus one because row zero is the header row
 Data1.Delete
-End With
 Data1.Refresh
