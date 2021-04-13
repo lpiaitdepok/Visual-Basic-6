@@ -11,3 +11,5 @@ Francesco Balena. Programming Microsoft Visual Basic 6.0. Microsoft Press
 Bunafit Nugroho. Panduan Membuat Program Aplikasi Inventory Barang dengan Visual Basic 6. Elex Media Komputindo
 Eric Winemiller, et all. Visual Basic 6 Database How-To. Macmillan
 https://docs.microsoft.com/en-us/
+https://www.vbforums.com/index.php
+https://science.ucalgary.ca/
