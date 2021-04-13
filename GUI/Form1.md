@@ -1,3 +1,4 @@
+```
 ' font dalam form
 Form1.Font = "Courier New"
 Form1.FontSize = 10
@@ -14,3 +15,4 @@ Form1.Print
 
 ' keluar dari form1
 Unload Form1
+```
