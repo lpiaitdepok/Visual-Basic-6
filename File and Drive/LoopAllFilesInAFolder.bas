@@ -14,4 +14,12 @@ While fileName <> ""
     fileName = Dir
 Wend
 
+'For example:
+
+'Loop through each file with an extension of ".xlsx"
+'fileName = Dir("C:\Users\marks\Documents\*.xlsx")
+'Loop through each file containing the word "January" in the filename
+'fileName = Dir("C:\Users\marks\Documents\*January*")
+'Loop through each text file in a folder
+'fileName = Dir("C:\Users\marks\Documents\*.txt")
 End Sub
