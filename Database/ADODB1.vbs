@@ -16,8 +16,8 @@ ado.Execute "UPDATE [nama tabel] Set [namakolom1]='" + Text1.Text + _
 "',[namakolom2]='" + Text2.Text + _
 "' WHERE [nama kolom1]='" + TextCari.Text + "'"
 
-Code diatas tidak memerlukan lagi kode pencarian seperti code edit untuk DATA dan Adodc
+'Code diatas tidak memerlukan lagi kode pencarian seperti code edit untuk DATA dan Adodc
 
 • Hapus Data
 ado.Execute "DELETE * FROM [nama tabel] WHERE [nama kolom1]='" + TextCari.Text + "'"
-Code diatas tidak memerlukan lagi kode pencarian seperti code hapus untuk DATA dan Adodc
+'Code diatas tidak memerlukan lagi kode pencarian seperti code hapus untuk DATA dan Adodc
