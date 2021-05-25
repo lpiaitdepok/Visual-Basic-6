@@ -9,3 +9,5 @@
 ### Beberapa References yang berguna:
 * Microsoft ActiveX Data Objects 2.x Library
 * Microsoft Excel 12.0 Object Library
+* Microsoft Winsock Control 6.0
+* Microsoft Windows Common Controls 6.0
