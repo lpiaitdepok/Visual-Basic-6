@@ -1,4 +1,5 @@
 Visual Basic 6 Data Types
+
 Byte	Store integer values in the range of 0 - 255
 Integer	Store integer values in the range of (-32,768) - (+ 32,767)
 Long	Store integer values in the range of (- 2,147,483,468) - (+ 2,147,483,468)
