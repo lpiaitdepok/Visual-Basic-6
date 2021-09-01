@@ -3,7 +3,7 @@ ado.Execute "INSERT INTO [nama tabel] VALUES ('" + Text1.Text + "','" + Text2.Te
 
 • Pencarian Data
 Set Rs = New Adodb.Recordset
-Rs.Open "SELECT * FROM [nama table1] WHERE [nama kolom1]='" + TextCari.Text + "'", ado
+Rs.Open "SELECT * FROM [nama table1] WHERE [nama kolom1]='" + Text3.Text + "'", ado
 If Not rs.EOF Then
 Text1.Text = rs("namakolom1")
 Text2.Text = rs("namakolom2")
@@ -14,10 +14,10 @@ End if
 • Edit Data
 ado.Execute "UPDATE [nama tabel] Set [namakolom1]='" + Text1.Text + _
 "',[namakolom2]='" + Text2.Text + _
-"' WHERE [nama kolom1]='" + TextCari.Text + "'"
+"' WHERE [nama kolom1]='" + Text3.Text + "'"
 
 'Code diatas tidak memerlukan lagi kode pencarian seperti code edit untuk DATA dan Adodc
 
 • Hapus Data
-ado.Execute "DELETE * FROM [nama tabel] WHERE [nama kolom1]='" + TextCari.Text + "'"
+ado.Execute "DELETE * FROM [nama tabel] WHERE [nama kolom1]='" + Text3.Text + "'"
 'Code diatas tidak memerlukan lagi kode pencarian seperti code hapus untuk DATA dan Adodc
