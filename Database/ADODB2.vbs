@@ -10,7 +10,7 @@ Private Sub Form_Load()
     Set cn = New ADODB.Connection
     'specify the connectionstring
     cn.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;" & _
-                          "Data Source=" & App.Path & "\DB1.mdb"
+    "Data Source=" & App.Path & "\DatabaseName.mdb"
     'open the connection
     cn.Open
     
