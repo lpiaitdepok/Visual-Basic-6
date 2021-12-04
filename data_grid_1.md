@@ -17,6 +17,8 @@ con.Open
 
 Set rs = New ADODB.Recordset
 
+rs.CursorLocation = adUseClient
+
 SQL = "SELECT * FROM DataSiswa"
 
 rs.Open SQL, con, adOpenDynamic, adLockOptimistic ', adCmdText
