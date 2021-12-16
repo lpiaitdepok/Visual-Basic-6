@@ -3,7 +3,7 @@ http://www.ucalgary.ca/cpsc
 http://cariprogram.blogspot.com/
 http://www.maranatha.edu/
 
-```
+```vbscript
 ' menghapus semua data pada MSFlexGrid
 MSHFlexGrid1.Clear
 ```
