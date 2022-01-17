@@ -13,3 +13,4 @@ Eric Winemiller, et all. Visual Basic 6 Database How-To. Macmillan
 https://docs.microsoft.com/en-us/
 https://www.vbforums.com/index.php
 https://science.ucalgary.ca/
+https://www.w3schools.com/
