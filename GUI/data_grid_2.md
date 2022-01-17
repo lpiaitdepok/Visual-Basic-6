@@ -7,7 +7,7 @@ DataGrid1.Columns(0).Visible = False
 DataGrid1.Columns("AlamatLengkap").Visible = True
 
 ' untuk merefresh datagrid    
-DataGrid1.Referesh
+DataGrid1.Refresh
 
 ' untuk masukan data pada datagrid    
 Set DataGrid1.DataSource = Adodc1
